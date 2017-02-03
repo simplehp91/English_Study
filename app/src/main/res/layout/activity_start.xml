@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.ac.jec.a16cm0209.english_study.StartActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBackS"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtEngU"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Cat"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="normal|italic" />
+
+        <Button
+            android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNextS"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Show"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShowS"
+            android:layout_width="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="End"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEndS"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJaS"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:id="@+id/imgViewS"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+
+</LinearLayout>
